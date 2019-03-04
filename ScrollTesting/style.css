@@ -1,0 +1,53 @@
+div,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sections {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	background-color: lightpink;
+	padding: 0;
+	margin: 0;
+}
+
+#charts {
+	width: 67%;
+	display: inline-block;
+	position: fixed;
+	background-color: yellowgreen;
+}
+
+#section {
+	height: 100vh;
+	background-color: aquamarine;
+	display: flex;
+	padding-left: 10%;
+	align-items: center;
+}
+
+#section-text {
+	justify-items: left;
+}
+
+#chart {
+	height: 100vh;
+	background-color: black;
+	color: white;
+	padding-left: 10%;
+	display: flex;
+	align-items: center;
+}
+
+#chart-text {
+	justify-items: left;
+}

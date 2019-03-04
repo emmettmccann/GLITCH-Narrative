@@ -1,0 +1,83 @@
+div,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sections {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	direction:rtl;
+}
+
+#charts {
+	width: 67%;
+	display: inline-block;
+	position: fixed;
+	background-color: white;
+}
+
+#section {
+	height: 100vh;
+	width: 40vh;
+	background-color: white;
+	display: flex;
+	padding-left: 0%;
+	padding-right: 5vh;
+	align-items: center;
+	justify-content: right;
+	direction:ltr;
+}
+
+#section-text {
+	color: black;
+}
+
+#chart {
+	height: 100vh;
+	background-color: white;
+	color: black;
+	display: flex;
+	margin-right: 3vw;
+	align-items: center;
+}
+
+#chart-text {
+	justify-items: left;
+}
+
+h1 {
+	font-size: 10vh;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 6vh;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-size: 3vh;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.comment {
+	font-size: 2vh;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #888;
+}
