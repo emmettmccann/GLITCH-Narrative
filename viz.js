@@ -22,7 +22,7 @@ function glitchHeader(div) {
 			width = (height * bannerWidth) / bannerHeight;
 		}
 		div.html(function(d) {
-			return '<img src="mount_result.png" alt="fulleye" style="width:' + width + 'px;height:' + height + 'px;"/>';
+			return '<img src="mount_result.jpg" alt="fulleye" style="width:' + width + 'px;height:' + height + 'px;"/>';
 			//return '<img src="data/5rep.png" alt="fulleye" style="width:'+width+'px;height:'+height+'px;"/>';
 		});
 		this.setup = true;
